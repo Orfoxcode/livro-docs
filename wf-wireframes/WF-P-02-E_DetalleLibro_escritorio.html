@@ -1,0 +1,535 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WF-P-02-E_detalleLibro_escritorio.html</title><style>
+*{box-sizing:border-box}body{margin:0;background:#eee;color:#262626;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:14px}button{font:inherit;cursor:pointer;color:inherit}button:focus-visible,[tabindex]:focus-visible{outline:3px solid #777;outline-offset:3px}.meta{max-width:1380px;margin:14px auto 10px;font-size:12px;color:#666;padding:0 12px}.frame{background:#fff;border:1px solid #dedede;max-width:1380px;width:calc(100% - 36px);min-height:calc(100vh - 80px);margin:0 auto 24px;border-radius:18px;overflow:hidden}.top{height:82px;min-height:82px;padding:0 42px;display:flex;align-items:center;gap:22px;border-bottom:1px solid #ededed}.logo{font-size:27px;color:#262626;font-weight:900;letter-spacing:-1.1px;margin-right:0}.desktop-nav{display:flex;align-self:stretch;align-items:stretch;gap:28px;margin-left:auto}.desktop-nav button{position:relative;display:inline-flex;align-items:center;justify-content:center;padding:0 2px;border:0;background:transparent;color:#686868;font-size:14px;font-weight:500;white-space:nowrap}.desktop-nav button.current{font-weight:700;color:#202020}.desktop-nav button.current:after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:4px;border-radius:4px 4px 0 0;background:#262626}.desktop-add{display:flex;align-items:center;gap:8px;border:0;border-radius:999px;background:#252525;color:#fff;padding:12px 18px;font-weight:700;font-size:13px;white-space:nowrap}.desktop-add svg{width:18px;height:18px}.profile-avatar{width:42px;height:42px;flex:0 0 42px;border:1px solid #dedede;background:#f7f7f7;border-radius:50%;display:grid;place-items:center;padding:0}.profile-avatar svg{width:23px;height:23px}.main{max-width:1285px;margin:auto;padding:28px 42px 70px}.back{border:0;background:transparent;font-size:13px;color:#666;padding:0;display:inline-flex;align-items:center;gap:7px;margin-bottom:22px}.eyebrow{font-size:11px;color:#999;text-transform:uppercase;letter-spacing:1.1px;font-weight:700}.book-hero{display:grid;grid-template-columns:135px minmax(0,1fr);gap:25px;align-items:center;border-bottom:1px solid #ececec;padding-bottom:25px}.catalog-cover{aspect-ratio:2/3;background:#e7e7e7;border:1px solid #ddd;border-radius:9px;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;color:#777;font-size:12px;padding:10px}.catalog-cover img{width:100%;height:100%;object-fit:cover}.book-hero h1{font-size:30px;letter-spacing:-.85px;line-height:1.13;margin:8px 0 7px}.byline{font-size:16px;color:#555;margin:0 0 14px}.ed-meta{display:flex;gap:9px;flex-wrap:wrap;align-items:center;color:#777;font-size:12px}.dot{color:#bbb}.more{border:0;background:#f4f4f4;padding:10px 14px;border-radius:11px;font-size:12px;font-weight:650;display:inline-flex;gap:7px;align-items:center;margin-top:17px}.more svg{width:14px;height:14px;transition:transform .2s}.more[aria-expanded=true] svg{transform:rotate(180deg)}.expanded{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px 20px;border-top:1px solid #eee;margin-top:15px;padding-top:16px}.expanded[hidden]{display:none}.fact{display:grid;gap:4px}.fact small{color:#888;font-size:11px}.fact strong{font-size:13px;font-weight:600}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:30px 0 16px}.section-head h2{margin:0;font-size:21px;letter-spacing:-.45px}.section-head p{margin:5px 0 0;color:#777;font-size:13px}.counter{font-size:12px;color:#777;white-space:nowrap}.edition-list{display:flex;gap:13px;overflow-x:auto;scroll-snap-type:x proximity;padding:2px 2px 16px;scrollbar-width:thin;scrollbar-color:#ccc transparent}.copy-card{flex:0 0 214px;scroll-snap-align:start;border:1px solid #e6e6e6;background:#fff;border-radius:17px;padding:14px;text-align:left;transition:box-shadow .15s,border-color .15s;display:flex;flex-direction:column;min-height:246px}.copy-card:hover{border-color:#aaa;box-shadow:0 8px 18px #0000000d}.copy-card .owner{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:700;min-width:0}.avatar{width:32px;height:32px;flex:none;border-radius:50%;background:#e9e9e9;border:1px solid #dedede;display:grid;place-items:center;color:#555}.avatar svg{width:19px;height:19px;stroke:currentColor;fill:none;stroke-width:1.6}.copy-card .label{font-size:10px;text-transform:uppercase;color:#888;letter-spacing:.3px;margin:20px 0 4px}.money{font-size:22px;font-weight:780;letter-spacing:-.5px}.offer{font-size:18px;font-weight:700}.place{display:flex;align-items:center;gap:6px;margin-top:10px;font-size:12px;color:#666}.place svg{width:16px;height:16px;flex:none}.condition{margin-top:9px;display:inline-block;background:#f2f2f2;border-radius:999px;padding:6px 9px;width:fit-content;font-size:11px;color:#666}.view-copy{margin-top:auto;padding-top:15px;font-weight:700;font-size:12px;display:flex;align-items:center;justify-content:space-between}.view-copy span{font-size:19px;font-weight:400}.editions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:20px}.edition{display:flex;align-items:center;text-align:left;gap:13px;background:#fff;border:1px solid #e7e7e7;border-radius:15px;padding:13px;min-width:0}.edition:hover{border-color:#aaa}.edition-cover{width:64px;aspect-ratio:2/3;border-radius:5px;flex:none;display:grid;place-items:center;background:#e7e7e7;border:1px solid #ddd;color:#888;font-size:10px;text-align:center}.edition-info{display:flex;flex-direction:column;gap:5px;min-width:0}.edition-info strong{font-size:13px}.edition-info span{font-size:11px;color:#777}.edition-info b{font-size:11px;font-weight:600;color:#444}.helper{font-size:11px;color:#929292;line-height:1.6;margin:22px 0 0}.overlay{position:fixed;inset:0;background:#0008;display:flex;align-items:center;justify-content:center;padding:20px;z-index:100}.overlay[hidden]{display:none}.dialog{background:#fff;width:min(620px,100%);max-height:92vh;overflow-y:auto;border-radius:22px;padding:25px;box-shadow:0 20px 80px #0003}.dialog-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:19px}.dialog-top h2{font-size:19px;margin:0}.close{width:40px;height:40px;border:0;background:#f2f2f2;border-radius:50%;font-size:24px}.profile-line{display:flex;align-items:center;gap:10px}.profile-line strong{display:block;font-size:14px}.profile-line a{display:block;font-size:12px;color:#777;margin-top:2px;text-decoration:underline;cursor:pointer}.modal-location{color:#777;font-size:12px;margin:10px 0 20px}.photos{display:flex;gap:10px;overflow:auto;scroll-snap-type:x mandatory;padding-bottom:10px}.photo{flex:0 0 72%;height:220px;border-radius:14px;background:#efefef;display:grid;place-items:center;color:#888;text-align:center;scroll-snap-align:start;padding:18px;font-size:12px}.photo:nth-child(2){background:#e2e2e2}.photo:nth-child(3){background:#f4f4f4}.modal-summary{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:15px 0;border-bottom:1px solid #eee}.modal-summary .money{font-size:28px}.pill{background:#f2f2f2;border-radius:999px;padding:7px 10px;font-size:11px;color:#555}.modal-note{font-size:13px;line-height:1.65;color:#555;margin:16px 0}.buttons{display:flex;flex-wrap:wrap;gap:9px;margin-top:15px}.btn{padding:13px 15px;border-radius:12px;border:1px solid #ddd;background:#fff;font-weight:700;font-size:12px;flex:1}.btn.dark{background:#262626;border-color:#262626;color:white}.no-ad{background:#f6f6f6;border-radius:14px;padding:18px;margin-top:17px}.no-ad strong{display:block;font-size:17px}.no-ad p{font-size:13px;line-height:1.6;color:#666;margin:9px 0 0}.bottom-nav{display:none}
+@media(max-width:900px){.main{padding:25px}.top{padding:0 22px}.desktop-nav{gap:15px}.editions{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){body{background:#fff}.meta{max-width:430px;font-size:9px;margin:0 auto;padding:7px 12px;height:26px;white-space:nowrap;overflow:hidden}.frame{width:100%;max-width:430px;height:calc(100dvh - 26px);min-height:480px;margin:0 auto;border:0;border-radius:0;display:grid;grid-template-rows:60px minmax(0,1fr) 88px;overflow:hidden}.top{height:60px;min-height:60px;padding:8px 22px;border:0;justify-content:space-between}.logo{font-size:24px}.desktop-nav,.desktop-add{display:none}.main{overflow-y:auto;overscroll-behavior:contain;padding:13px 18px 34px}.back{margin-bottom:18px}.book-hero{grid-template-columns:95px minmax(0,1fr);gap:15px;padding-bottom:22px;align-items:start}.book-hero h1{font-size:22px;margin:6px 0}.byline{font-size:13px;margin-bottom:10px}.ed-meta{font-size:11px;gap:5px}.more{margin-top:11px;font-size:11px;padding:9px 10px}.expanded{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.section-head{margin:27px 0 14px;align-items:start}.section-head h2{font-size:19px}.section-head p{font-size:12px}.counter{font-size:11px}.edition-list{margin-right:-18px;padding-right:18px;gap:11px}.copy-card{flex-basis:188px;min-height:225px;padding:13px}.editions{grid-template-columns:1fr;gap:10px}.edition{padding:11px}.edition-cover{width:56px}.overlay{align-items:flex-end;padding:0}.dialog{max-height:92dvh;border-radius:22px 22px 0 0;padding:20px 18px calc(24px + env(safe-area-inset-bottom))}.photo{height:205px;flex-basis:87%}.bottom-nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));width:calc(100% - 24px);margin:5px 12px 12px;padding:7px 5px;border:1px solid #dedede;border-radius:26px;background:#fafafa;align-items:center;gap:4px}.bottom-nav button{position:relative;min-width:0;min-height:55px;display:flex;flex-direction:column;gap:5px;align-items:center;justify-content:center;font-size:9px;border-radius:18px;border:0;background:transparent;color:#777}.bottom-nav button.active{background:#e5e5e5;color:#111;font-weight:700}.bottom-nav svg{height:22px;width:22px;fill:none;stroke:currentColor;stroke-width:1.7}.bottom-nav .nav-add-icon{position:absolute;left:50%;top:50%;transform:translate(-50%,-67%);height:61px;width:61px;border-radius:50%;background:#252525;display:grid;place-items:center;box-shadow:0 7px 20px #0003}.bottom-nav .nav-add-icon svg{width:30px;height:30px;stroke:#fff;stroke-width:2}.helper{font-size:10px}}
+.modal-location{display:flex;gap:5px;align-items:center}.modal-location svg{width:15px;height:15px}
+/* V03: desplegable editorial y carruseles revisados */
+.book-hero.is-expanded{grid-template-columns:205px minmax(0,1fr)}.book-hero.is-expanded .catalog-cover{width:205px}@media(max-width:700px){.book-hero.is-expanded{grid-template-columns:115px minmax(0,1fr)}.book-hero.is-expanded .catalog-cover{width:115px}}
+.book-hero{grid-template-columns:150px minmax(0,1fr);align-items:start;gap:28px;padding-bottom:28px;transition:padding .2s}.catalog-cover{width:150px;aspect-ratio:2/3;padding:0;border-radius:10px;background:#e3e3e3;align-self:start}.catalog-cover img{object-fit:contain}.hero-main{min-width:0}.book-hero h1{margin-top:7px}.ed-meta{gap:10px 20px}.hero-fact{display:inline-flex;gap:7px;align-items:center}.hero-fact svg,.fact svg{width:16px;height:16px;flex:none;stroke:#7b7b7b;fill:none;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}.more{margin-top:18px}.expanded{display:block;max-width:900px;margin-top:21px;padding-top:18px;border-top:1px solid #eee}.expanded[hidden]{display:none}.synopsis h3{font-size:14px;margin:0 0 6px}.synopsis p{font-size:13px;line-height:1.7;color:#606060;max-width:750px;margin:0 0 19px}.catalog-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px 23px}.fact{display:flex;gap:11px;align-items:flex-start}.fact span{display:flex;flex-direction:column;gap:4px}.fact small{font-size:11px}.fact strong{font-size:13px}.carousel-shell{position:relative}.edition-list{scrollbar-width:none;padding:4px 3px 12px;overscroll-behavior-x:contain;cursor:grab}.edition-list::-webkit-scrollbar{display:none}.edition-list.dragging{cursor:grabbing;scroll-snap-type:none}.carousel-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:32px;height:44px;border:1px solid #e5e5e5;border-radius:999px;background:#fffffff2;box-shadow:0 3px 12px #00000011;font-size:26px;line-height:1;display:grid;place-items:center;opacity:.88}.carousel-arrow:hover{background:#f0f0f0;opacity:1}.carousel-arrow.prev{left:-17px}.carousel-arrow.next{right:-17px}.copy-card{min-height:178px;padding:15px;gap:0;user-select:none}.copy-card .owner{margin-bottom:18px}.copy-card .money,.copy-card .offer{margin-top:0}.copy-card .place{margin-top:11px}.copy-card .condition{margin-top:12px}.editions{grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;align-items:start}.edition{padding:0;border:0;border-radius:0;display:block;text-align:left;background:transparent}.edition:hover{border:0}.edition-cover{display:flex;width:100%;height:auto;aspect-ratio:.70;background:#f1f1f1;border:0;border-radius:12px;margin-bottom:11px;padding:14px;align-items:center;justify-content:center}.edition-cover-art{width:76%;height:94%;border-radius:4px;background:#d7d7d7;box-shadow:4px 5px 12px #0002;display:grid;place-items:center;text-align:center;padding:12px;color:#4d4d4d;font-size:15px;font-weight:750;line-height:1.35}.edition:nth-child(2) .edition-cover-art{background:#c9c9c9}.edition:nth-child(3) .edition-cover-art{background:#e0e0e0}.edition-info{gap:4px}.edition-info strong{font-size:14px;color:#292929}.edition-info span,.edition-info b{font-size:12px}.edition:focus-visible .edition-cover{outline:2px solid #777;outline-offset:3px}
+@media(max-width:900px){.editions{grid-template-columns:repeat(3,minmax(0,1fr))}.catalog-facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.book-hero{grid-template-columns:95px minmax(0,1fr);gap:15px}.catalog-cover{width:95px}.editions{grid-template-columns:repeat(2,minmax(0,1fr))}.carousel-arrow.prev{left:-11px}.carousel-arrow.next{right:-11px}.expanded{margin-top:15px}.catalog-facts{grid-template-columns:1fr 1fr}}
+</style>
+<style>
+/* V04 — Refinamientos controlados: desplegable, tarjetas y portadas */
+.book-hero,.book-hero.is-expanded{grid-template-columns:150px minmax(0,1fr);gap:28px}
+.catalog-cover,.book-hero.is-expanded .catalog-cover{width:150px;transform:none;transition:none}
+.expanded{display:block;opacity:1;transform:translateY(0);transition:opacity .24s ease,transform .24s ease}
+.expanded[hidden]{display:none}
+.book-hero .more svg{transition:transform .25s ease}
+.book-hero.is-expanded .more svg{transform:rotate(180deg)}
+.book-hero.is-expanded .expanded{animation:livroDetailsIn .3s ease-out both}
+@keyframes livroDetailsIn{from{opacity:0;transform:translateY(-7px)}to{opacity:1;transform:translateY(0)}}
+.copy-card{flex:0 0 245px;min-height:160px;display:flex;flex-direction:column;align-items:stretch;justify-content:space-between;gap:14px;padding:15px 16px;text-align:left}
+.copy-top{display:flex;justify-content:space-between;align-items:flex-start;gap:9px;width:100%}
+.copy-card .owner{margin:0;display:flex;align-items:center;gap:9px;min-width:0;flex:1}
+.copy-owner-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.copy-card .condition{margin:0;max-width:104px;text-align:right;white-space:normal;flex:none}
+.copy-bottom{display:flex;flex-direction:column;gap:9px;width:100%;margin-top:auto}
+.copy-card .money,.copy-card .offer{margin:0;align-self:flex-start}
+.copy-card .place{margin:0;display:flex;gap:5px;align-items:center}
+.editions{grid-template-columns:repeat(5,minmax(0,1fr));gap:28px 21px}
+.edition{background:transparent;border:0;padding:0;display:flex;flex-direction:column;align-items:stretch;gap:0;box-shadow:none}
+.edition:hover{border:0;transform:none}
+.edition-cover{width:100%;aspect-ratio:.70;border:0;background:transparent;margin:0 0 12px;padding:0;display:flex;align-items:stretch;justify-content:stretch;border-radius:12px;overflow:hidden}
+.edition-cover-art{width:100%;height:100%;display:grid;place-items:center;background:#dedede;border:1px solid #d1d1d1;border-radius:10px;box-shadow:none;padding:15px;color:#555;font-size:15px;text-align:center;line-height:1.35}
+.edition:nth-child(2) .edition-cover-art{background:#cecece}
+.edition:nth-child(3) .edition-cover-art{background:#e3e3e3}
+.edition-info{align-items:flex-start;gap:4px}
+.edition-info strong{font-size:15px;line-height:1.3}
+.edition-info span,.edition-info b{font-size:12px;line-height:1.4}
+@media(max-width:1100px){.editions{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:900px){.editions{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){.book-hero,.book-hero.is-expanded{grid-template-columns:95px minmax(0,1fr);gap:15px}.catalog-cover,.book-hero.is-expanded .catalog-cover{width:95px}.editions{grid-template-columns:repeat(2,minmax(0,1fr))}.copy-card{flex-basis:210px}}
+@media(prefers-reduced-motion:reduce){.expanded,.book-hero .more svg{animation:none;transition:none}}
+</style>
+<style>
+/* P-02 V05 — ficha bibliográfica, carrusel compacto y portadas secundarias */
+.book-hero{grid-template-columns:166px minmax(0,1fr);gap:28px;align-items:start;transition:grid-template-columns .42s cubic-bezier(.2,.75,.25,1),gap .42s ease;}
+.book-hero .catalog-cover{width:166px;min-height:249px;max-height:249px;align-self:stretch;overflow:hidden;}
+.book-hero .catalog-cover img{width:100%;height:100%;object-fit:cover;display:block}
+.book-hero.is-expanded{grid-template-columns:minmax(0,1fr) 245px;gap:38px;}
+.book-hero.is-expanded .hero-main{grid-column:1;grid-row:1}
+.book-hero.is-expanded .catalog-cover{grid-column:2;grid-row:1;width:100%;height:100%;min-height:100%;max-height:none;aspect-ratio:auto;align-self:stretch}
+.book-hero .hero-main{min-width:0}
+.ed-meta b{font-weight:650;color:#444}.hero-fact span{white-space:nowrap}
+.catalog-facts{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px 23px}
+.expanded{max-width:100%;animation:none}.book-hero.is-expanded .expanded{animation:livroDetailsIn .33s ease-out both}
+.synopsis p{max-width:780px;margin-bottom:16px}
+.copy-card{flex:0 0 206px;min-height:128px;padding:12px 13px;gap:7px;border-radius:14px;justify-content:flex-start}
+.copy-top{gap:6px;align-items:center}.copy-card .owner{gap:7px;font-size:12px}.copy-card .avatar{height:29px;width:29px}.copy-card .avatar svg{width:17px;height:17px}
+.copy-card .condition{font-size:10px;padding:4px 7px;max-width:84px;line-height:1.1}
+.copy-bottom{margin-top:2px;gap:6px}
+.copy-card .money{font-size:20px;line-height:1.18}.copy-card .offer{font-size:14px;line-height:1.3}
+.copy-card .place{font-size:11px;line-height:1.25}.copy-card .place svg{width:13px;height:13px}
+.editions{display:grid;grid-template-columns:repeat(5,minmax(0,152px));gap:22px;align-items:start}
+.edition{max-width:152px}
+.edition-cover{width:100%;height:auto;aspect-ratio:.70;border-radius:10px;margin-bottom:10px}
+.edition-cover-art{font-size:13px;padding:12px}
+.edition-info strong{font-size:13px}.edition-info span,.edition-info b{font-size:11px}
+@media(max-width:900px){.book-hero.is-expanded{grid-template-columns:minmax(0,1fr) 170px;gap:22px}.editions{grid-template-columns:repeat(4,minmax(0,145px))}}
+@media(max-width:700px){.book-hero{grid-template-columns:95px minmax(0,1fr)}.book-hero .catalog-cover{width:95px;min-height:143px;max-height:143px}.book-hero.is-expanded{grid-template-columns:minmax(0,1fr) 115px;gap:14px}.ed-meta{gap:7px}.hero-fact span{white-space:normal}.catalog-facts{grid-template-columns:1fr}.editions{grid-template-columns:repeat(2,minmax(0,140px))}}
+@media(prefers-reduced-motion:reduce){.book-hero{transition:none}.book-hero.is-expanded .expanded{animation:none}}
+</style><style>
+/* P-02 V06: transición estable, catálogo único y composición basada en las capturas */
+.book-hero,.book-hero.is-expanded{display:grid;grid-template-columns:166px minmax(0,1fr);gap:28px;align-items:start;transition:grid-template-columns .34s cubic-bezier(.2,.75,.25,1)}
+.book-hero .catalog-cover,.book-hero.is-expanded .catalog-cover{grid-column:1;grid-row:1;width:166px;height:auto;min-height:249px;max-height:none;aspect-ratio:2/3;align-self:start;transition:width .34s cubic-bezier(.2,.75,.25,1),min-height .34s cubic-bezier(.2,.75,.25,1)}
+.book-hero.is-expanded{grid-template-columns:208px minmax(0,1fr)}
+.book-hero.is-expanded .catalog-cover{width:208px;min-height:312px;aspect-ratio:2/3}
+.book-hero .hero-main,.book-hero.is-expanded .hero-main{grid-column:2;grid-row:1}
+.catalog-facts[hidden]{display:none!important}
+#catalog-facts-inline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:15px 0 3px;padding:15px 0 0;border-top:1px solid #eee;animation:livroDetailsIn .25s ease-out both}
+#catalog-facts-inline .fact{display:flex;align-items:center;gap:9px}
+#catalog-facts-inline .fact svg{flex:0 0 16px;width:16px;height:16px}
+#catalog-facts-inline .fact small{display:block;margin-bottom:3px}
+#catalog-facts-inline .fact strong{display:block}
+.expanded{border-top:0;margin-top:10px;padding-top:0}
+.synopsis{max-width:850px}
+.edition-list{scroll-snap-type:none;scroll-behavior:auto;overscroll-behavior-x:contain;touch-action:pan-x;padding-top:3px;padding-bottom:13px}
+.edition-list.dragging{cursor:grabbing;user-select:none;scroll-snap-type:none}
+.copy-card{flex:0 0 285px;min-height:159px;max-height:159px;padding:11px 13px;display:grid;grid-template-columns:104px minmax(0,1fr);align-items:stretch;gap:14px;border-radius:17px}
+.copy-thumb{height:100%;width:104px;border-radius:9px;background:#dfdfdf;display:grid;place-items:center;color:#888;font-size:9px;line-height:1.5;text-align:center;font-weight:400}
+.copy-info{display:flex;flex-direction:column;align-items:flex-start;gap:5px;min-width:0;width:100%;justify-content:flex-start}
+.copy-card .owner{gap:7px;max-width:100%;font-size:12px;margin:0 0 7px}
+.copy-card .avatar{height:31px;width:31px}.copy-card .copy-owner-name{font-size:12px}
+.copy-price{min-height:25px;display:flex;align-items:center}
+.copy-card .money{font-size:23px}.copy-card .offer{font-size:17px;white-space:nowrap}
+.copy-card .condition{max-width:100%;margin:0;font-size:11px;white-space:nowrap;padding:5px 9px}
+.copy-card .place{margin-top:auto;gap:6px;font-size:12px;white-space:nowrap}
+.copy-card .place svg{width:15px;height:15px}
+.editions{display:grid;grid-template-columns:repeat(5,minmax(0,145px));gap:22px;align-items:start}
+.edition{max-width:145px;display:flex;flex-direction:column;gap:0;border:0;background:none;padding:0;text-align:left;align-items:stretch}
+.edition-cover{width:100%;aspect-ratio:.70;height:auto;background:transparent;border:0;border-radius:10px;margin:0 0 11px;overflow:hidden}
+.edition-cover-art{width:100%;height:100%;display:grid;place-items:center;background:#ddd;border:0;border-radius:10px;font-size:11px;font-weight:400;color:#777;line-height:1.5}
+.edition-info{display:flex;flex-direction:column;gap:4px;align-items:flex-start}
+.edition-info strong{font-size:14px}.edition-info>span:not(.edition-owners){font-size:12px}
+.edition-owners{display:flex;align-items:center;padding-left:8px;gap:0;margin-top:8px;white-space:nowrap}
+.owner-mini{width:22px;height:22px;margin-left:-8px;background:#e6e6e6;border:1.5px solid #fff;border-radius:50%;display:grid;place-items:center}
+.owner-mini:nth-child(2){background:#d7d7d7}.owner-mini:nth-child(3){background:#c9c9c9}
+.owner-mini svg{width:12px;height:12px;fill:none;stroke:#777;stroke-width:1.8}
+.edition-owners b{margin-left:9px;font-size:11px;font-weight:500;color:#555}
+@media(max-width:1000px){#catalog-facts-inline{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.book-hero,.book-hero.is-expanded{grid-template-columns:95px minmax(0,1fr);gap:15px}.book-hero .catalog-cover,.book-hero.is-expanded .catalog-cover{width:95px;min-height:143px}.editions{grid-template-columns:repeat(2,minmax(0,145px))}}
+@media(prefers-reduced-motion:reduce){.book-hero .catalog-cover{transition:none}#catalog-facts-inline{animation:none}}
+</style><style>
+/* V08 — Misma estructura para todos los metadatos de ficha */
+.ed-meta{display:flex;flex-wrap:wrap;gap:11px 22px;align-items:center}
+.ed-meta .hero-fact{display:inline-flex;align-items:center;gap:8px;min-width:0;font-size:12px;line-height:1.45}
+.ed-meta .hero-fact[hidden]{display:none!important}
+.ed-meta .hero-fact svg{width:16px;height:16px;flex:0 0 16px;stroke:currentColor;stroke-width:1.65;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.synopsis-teaser{margin-top:18px;max-width:780px;color:#555;line-height:1.5}
+.synopsis-teaser[hidden]{display:none}
+.synopsis-teaser strong{font-size:12px;color:#292929}
+.synopsis-teaser p{font-size:12px;margin:6px 0 0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+/* Jerarquía de fotografías y estado dentro de la tarjeta */
+.copy-card{grid-template-columns:102px minmax(0,1fr);flex-basis:286px;gap:12px;min-height:160px;max-height:160px}
+.copy-thumb{width:102px;min-width:102px;overflow:hidden}
+.copy-thumb.ad-photo{background:linear-gradient(145deg,#d6d6d6 4%,#efefef 44%,#c7c7c7 45%,#dedede 72%,#bbb 100%);border:1px solid #ccc;position:relative}
+.copy-thumb.ad-photo::before{content:'';position:absolute;top:12px;left:18px;right:18px;bottom:13px;border:3px solid #b2b2b2;transform:rotate(-5deg);border-radius:3px;background:linear-gradient(155deg,#e6e6e6,#bababa);box-shadow:5px 5px 12px #0002}
+.copy-thumb.ad-photo span{position:relative;z-index:1;background:#ffffffc9;padding:4px 3px;border-radius:3px;color:#575757;line-height:1.35}
+.copy-thumb.catalog-photo{background:#dedede}
+.copy-card .condition{background:#ededed;border:1px solid #d5d5d5;color:#303030;font-size:11px;font-weight:700;padding:5px 9px;border-radius:999px}
+.copy-card .offer{font-size:14px;font-weight:750;white-space:normal;line-height:1.25;color:#252525;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.copy-card .owner{margin-bottom:3px}
+.copy-info{gap:6px}
+@media(max-width:700px){.ed-meta{gap:9px 12px}.copy-card{flex-basis:270px}}
+</style>
+<style>
+/* V08 — control de ficha siempre al final; tarjetas compactas y alineadas */
+.hero-main{display:flex;flex-direction:column;align-items:flex-start}
+.hero-main .ed-meta,.hero-main .synopsis-teaser,.hero-main .expanded{width:100%}
+.hero-main .more{order:99;margin-top:17px}
+.copy-card{flex:0 0 262px;width:262px;min-height:145px;max-height:145px;padding:9px;gap:11px;grid-template-columns:90px minmax(0,1fr);align-items:stretch}
+.copy-thumb{height:125px;width:90px;min-width:90px;border-radius:9px}
+.copy-thumb.ad-photo{background:#e9e9e9;border:1px solid #e4e4e4;position:relative}
+.copy-thumb.ad-photo::before{content:'';position:absolute;top:16px;left:22px;width:47px;height:80px;bottom:auto;right:auto;background:#c3c3c3;border:1px solid #aaa;border-radius:3px;transform:rotate(-9deg);box-shadow:4px 5px 7px #00000016}
+.copy-thumb.ad-photo span{z-index:1;align-self:center;padding:4px 2px;background:transparent;color:#545454;font-size:8px;font-weight:600;letter-spacing:.1px;line-height:1.25}
+.copy-thumb.catalog-photo{background:#dedede}
+.copy-info{height:125px;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:0;justify-content:flex-start}
+.copy-card .owner{height:31px;min-height:31px;flex:0 0 31px;margin:0;align-items:center;gap:7px;width:100%;white-space:nowrap}
+.copy-card .copy-owner-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.copy-primary{display:flex;align-items:center;align-content:center;gap:7px;flex-wrap:wrap;margin-top:11px;min-height:28px;width:100%}
+.copy-card .money{font-size:22px;margin:0;line-height:1.2}
+.copy-card .condition{font-size:10px;line-height:1.15;background:#e8e8e8;color:#292929;border:1px solid #d0d0d0;padding:4px 7px;border-radius:999px;white-space:nowrap;max-width:100%;margin:0}
+.copy-card .offer-cta{display:inline-flex;align-items:center;justify-content:center;background:#292929;border:1px solid #292929;border-radius:8px;color:#fff;padding:7px 10px;font-size:11px;font-weight:700;line-height:1.1;text-decoration:none;white-space:nowrap}
+.copy-card:hover .offer-cta{background:#444}
+.copy-card .place{margin-top:auto;display:flex;align-items:center;gap:5px;font-size:11px;line-height:1.25;white-space:nowrap;padding-bottom:2px}
+#copies{scroll-snap-type:none;scroll-behavior:auto;overscroll-behavior-x:contain}
+#copies .copy-card{scroll-snap-align:none;transform:none!important}
+#copies.dragging{scroll-behavior:auto;cursor:grabbing}
+@media(max-width:700px){.copy-card{flex-basis:249px;width:249px;grid-template-columns:86px minmax(0,1fr);gap:9px}.copy-thumb{width:86px;min-width:86px}}
+</style>
+
+<style>
+/* V10: tarjetas compactas, con una única cuadrícula estable. */
+#copies{gap:12px;scroll-snap-type:none;scroll-behavior:auto;align-items:stretch;padding:3px 3px 12px}
+#copies .copy-card{box-sizing:border-box;flex:0 0 258px;width:258px;height:138px;min-height:138px;max-height:138px;display:grid;grid-template-columns:82px minmax(0,1fr);grid-template-rows:1fr;column-gap:12px;align-items:stretch;justify-content:start;text-align:left;padding:9px;border:1px solid #e2e2e2;border-radius:15px;background:#fff;box-shadow:none;transform:none!important;overflow:hidden}
+#copies .copy-card:hover{border-color:#a8a8a8;box-shadow:0 4px 12px #0000000a;transform:none!important}
+#copies .copy-thumb{box-sizing:border-box;display:flex;align-items:center;justify-content:center;position:relative;width:82px;min-width:82px;height:118px;min-height:118px;max-height:118px;margin:0;border:0;border-radius:8px;background:#dedede;overflow:hidden;flex:none;color:#777;font-size:9px;text-align:center}
+#copies .copy-thumb.ad-photo{background:#eee}
+#copies .copy-thumb.ad-photo::before{content:'';position:absolute;left:22px;top:16px;width:39px;height:78px;background:#cdcdcd;border:1px solid #aaa;border-radius:3px;transform:rotate(-8deg);box-shadow:4px 4px 8px #0002}
+#copies .copy-thumb.ad-photo span{display:none}
+#copies .copy-thumb.catalog-photo span{display:block;font-size:9px;line-height:1.4;font-weight:400;letter-spacing:0;color:#777}
+#copies .copy-info{box-sizing:border-box;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;width:100%;min-width:0;height:118px;min-height:118px;margin:0;padding:0;gap:0;text-align:left}
+#copies .copy-card .owner{display:flex;flex-direction:row;align-items:center;justify-content:flex-start;gap:6px;width:100%;height:28px;min-height:28px;flex:0 0 28px;margin:0;padding:0;text-align:left}
+#copies .copy-card .avatar{flex:0 0 26px;width:26px;height:26px;margin:0}
+#copies .copy-card .avatar svg{width:16px;height:16px}
+#copies .copy-card .copy-owner-name{display:block;min-width:0;text-align:left;font-size:11px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#copies .copy-primary{display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;gap:5px;margin:9px 0 0;width:100%;height:auto;min-height:0;padding:0;text-align:left}
+#copies .copy-card .money{display:block;margin:0;font-size:20px;font-weight:800;line-height:1.08;letter-spacing:-.4px;text-align:left;color:#222}
+#copies .copy-card .condition{display:inline-flex;align-items:center;align-self:flex-start;justify-content:center;width:auto;max-width:100%;min-height:20px;padding:3px 7px;margin:0;background:#eaeaea;border:1px solid #d0d0d0;color:#303030;font-weight:700;font-size:10px;line-height:1.1;border-radius:100px;text-align:left}
+#copies .copy-card .offer-cta{display:inline-flex;align-items:center;justify-content:center;align-self:flex-start;width:auto;min-height:30px;padding:0 10px;margin:0;background:#262626;color:#fff;border:0;border-radius:8px;font-size:11px;font-weight:700;line-height:1;text-decoration:none;white-space:nowrap;text-align:left}
+#copies .copy-card .place{display:flex;flex-direction:row;align-items:center;justify-content:flex-start;gap:5px;margin:auto 0 0;padding:0;width:100%;font-size:11px;line-height:1.2;white-space:nowrap;text-align:left;color:#666}
+#copies .copy-card .place svg{width:14px;height:14px;flex:0 0 14px}
+@media(max-width:700px){#copies .copy-card{flex-basis:244px;width:244px;grid-template-columns:78px minmax(0,1fr)}#copies .copy-thumb{width:78px;min-width:78px}}
+</style>
+<style>
+/* V11 — tarjetas proporcionadas: superficie mayor y columna de datos legible */
+#copies{gap:16px;align-items:stretch}
+#copies .copy-card{flex:0 0 346px;width:346px;height:190px;min-height:190px;max-height:190px;grid-template-columns:122px minmax(0,1fr);gap:18px;padding:14px;border-radius:19px;overflow:hidden}
+#copies .copy-thumb{height:160px;min-height:160px;max-height:160px;width:122px;min-width:122px;border-radius:11px}
+#copies .copy-thumb.ad-photo::before{left:35px;top:25px;width:55px;height:104px;border-radius:4px}
+#copies .copy-info{height:160px;min-height:160px;width:100%;gap:0;overflow:hidden;align-items:flex-start;justify-content:flex-start}
+#copies .copy-card .owner{height:36px;min-height:36px;flex:0 0 36px;gap:10px;align-items:center;justify-content:flex-start}
+#copies .copy-card .avatar{width:34px;height:34px;flex:0 0 34px}
+#copies .copy-card .avatar svg{width:19px;height:19px}
+#copies .copy-card .copy-owner-name{font-size:13px;font-weight:700;line-height:1.2;max-width:100%}
+#copies .copy-primary{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;flex:0 0 auto;gap:10px;min-height:0;margin:16px 0 0;padding:0;width:100%}
+#copies .copy-card .money{font-size:25px;line-height:1.05;letter-spacing:-.6px}
+#copies .copy-card .condition{font-size:11px;line-height:1.1;min-height:25px;padding:5px 10px}
+#copies .copy-card .offer-cta{min-height:36px;padding:0 15px;border-radius:10px;font-size:12px}
+#copies .copy-card .place{font-size:12px;margin:auto 0 0;gap:7px;min-height:18px;align-items:center}
+#copies .copy-card .place svg{width:16px;height:16px;flex:0 0 16px}
+@media(max-width:700px){#copies .copy-card{flex:0 0 315px;width:315px;height:172px;min-height:172px;max-height:172px;grid-template-columns:100px minmax(0,1fr);gap:14px;padding:12px}#copies .copy-thumb{width:100px;min-width:100px;height:146px;min-height:146px;max-height:146px}#copies .copy-info{height:146px;min-height:146px}#copies .copy-thumb.ad-photo::before{left:28px;top:24px;width:45px;height:95px}}
+</style>
+<style>
+/* V12 — separación de sinopsis y tarjetas sin contorno */
+#book-hero .expanded:not([hidden]){margin-top:32px;padding-top:0}
+#book-hero .expanded .synopsis{margin-top:0}
+#book-hero .expanded .synopsis h3{margin-top:0}
+#copies .copy-card{border:0!important;box-shadow:none!important;background:transparent!important;padding:0!important;height:166px;min-height:166px;max-height:166px;flex:0 0 336px;width:336px;grid-template-columns:122px minmax(0,1fr);gap:18px;border-radius:0;align-items:stretch;text-align:left;transform:none!important}
+#copies .copy-card:hover,#copies .copy-card:focus-visible{border:0!important;box-shadow:none!important;transform:none!important}
+#copies .copy-thumb{height:166px;min-height:166px;max-height:166px;width:122px;min-width:122px}
+#copies .copy-info{height:166px;min-height:166px;max-height:166px;width:100%;align-items:flex-start;text-align:left}
+#copies .copy-card .owner{justify-content:flex-start;text-align:left;width:100%}
+#copies .copy-primary{align-items:flex-start;text-align:left;margin-left:0;width:100%}
+#copies .copy-card .money,#copies .copy-card .condition,#copies .copy-card .offer-cta{align-self:flex-start;margin-left:0;text-align:left}
+#copies .copy-card .offer-cta{justify-content:flex-start}
+#copies .copy-card .place{justify-content:flex-start;text-align:left;margin-left:0}
+@media(max-width:700px){#copies .copy-card{flex-basis:295px;width:295px;height:148px;min-height:148px;max-height:148px;grid-template-columns:100px minmax(0,1fr);gap:14px}#copies .copy-thumb,#copies .copy-info{height:148px;min-height:148px;max-height:148px}#copies .copy-thumb{width:100px;min-width:100px}}
+</style><style>
+/* V13: una única estructura para la columna informativa, sin reglas heredadas de alineación. */
+#copies .copy-card{box-sizing:border-box;display:grid;grid-template-columns:122px 190px;column-gap:18px;flex:0 0 330px;width:330px;min-width:330px;height:172px;min-height:172px;max-height:172px;padding:0!important;border:0!important;background:transparent!important;box-shadow:none!important;text-align:left!important;align-items:start;justify-items:start}
+#copies .copy-thumb{box-sizing:border-box;width:122px;min-width:122px;height:172px;min-height:172px;max-height:172px;margin:0;align-self:start}
+#copies .copy-info{box-sizing:border-box;display:grid;grid-template-columns:1fr;grid-template-rows:35px minmax(0,1fr) 22px;justify-content:stretch;justify-items:start;align-content:stretch;align-items:start;width:190px;min-width:0;height:172px;min-height:172px;max-height:172px;padding:0;margin:0;gap:0;text-align:left!important;overflow:visible}
+#copies .copy-card .owner{box-sizing:border-box;display:flex;align-items:center;justify-content:flex-start;justify-self:start;width:190px;height:35px;min-height:35px;flex:none;gap:8px;margin:0;padding:0;text-align:left!important}
+#copies .copy-card .copy-owner-name{font-size:12px;font-weight:700;min-width:0;max-width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:left!important}
+#copies .copy-primary{box-sizing:border-box;display:flex;flex-direction:column;flex-wrap:nowrap;align-content:stretch;justify-content:flex-start;align-items:flex-start;align-self:start;justify-self:start;width:100%;height:auto;min-height:0;max-height:none;gap:9px;margin:19px 0 0 0;padding:0;text-align:left!important}
+#copies .copy-card .money{display:block;align-self:flex-start;justify-self:start;width:auto;margin:0;padding:0;font-size:25px;line-height:1.1;text-align:left!important}
+#copies .copy-card .condition{display:inline-flex;align-items:center;align-self:flex-start;justify-self:start;width:max-content;max-width:100%;margin:0;padding:5px 10px;font-size:11px;min-height:25px;text-align:left!important}
+#copies .copy-card .offer-cta{display:inline-flex;align-items:center;justify-content:center;align-self:flex-start;justify-self:start;width:max-content;max-width:100%;margin:0;padding:9px 13px;text-decoration:none;text-align:left!important}
+#copies .copy-card .place{box-sizing:border-box;display:flex;align-items:center;justify-content:flex-start;justify-self:start;align-self:end;width:auto;min-height:22px;margin:0;padding:0;gap:6px;font-size:12px;text-align:left!important;white-space:nowrap}
+#copies .copy-card:hover{transform:none!important}
+@media(max-width:700px){#copies .copy-card{grid-template-columns:100px 170px;column-gap:12px;flex-basis:282px;width:282px;min-width:282px;height:150px;min-height:150px;max-height:150px}#copies .copy-thumb{width:100px;min-width:100px;height:150px;min-height:150px;max-height:150px}#copies .copy-info{width:170px;height:150px;min-height:150px;max-height:150px;grid-template-rows:32px minmax(0,1fr) 20px}#copies .copy-card .owner{width:170px;height:32px;min-height:32px}#copies .copy-primary{margin-top:12px}}
+</style><style>
+/* P-02 V15: ventana modal de detalle del ejemplar */
+.dialog{width:min(680px,calc(100vw - 32px));padding:27px 30px 30px}
+.dialog-top{margin-bottom:18px}
+.modal-owner-row{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:20px}
+.modal-owner-link{display:flex;align-items:center;text-align:left;gap:11px;flex:1;min-width:0;border:0;background:none;padding:6px 0;border-radius:10px}
+.modal-owner-link:hover .modal-owner-text strong{text-decoration:underline;text-underline-offset:3px}
+.modal-owner-link .avatar{width:41px;height:41px;flex:0 0 41px}
+.modal-owner-link .avatar svg{width:22px;height:22px}
+.modal-owner-text{display:flex;flex-direction:column;gap:5px;min-width:0}
+.modal-owner-text strong{font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.modal-owner-text>span{display:flex;align-items:center;gap:5px;color:#777;font-size:12px}
+.modal-owner-text>span svg{width:13px;height:13px}
+.owner-chevron{display:grid;place-items:center;color:#666;margin-left:12px}
+.owner-chevron svg{width:19px;height:19px}
+.message-action{display:flex;align-items:center;justify-content:center;gap:8px;flex:0 0 auto;border:1px solid #dedede;border-radius:12px;background:#fff;padding:11px 13px;font-size:12px;font-weight:650}
+.message-action:hover{background:#f6f6f6}
+.message-action svg{width:17px;height:17px}
+.detail-gallery{margin-bottom:22px}
+.gallery-stage{position:relative;height:300px;border-radius:16px;background:#eee;overflow:hidden}
+.gallery-slide{position:absolute;inset:0;background:#eeeeee;display:grid;place-items:center}
+.gallery-slide[hidden]{display:none}
+.gallery-slide.photo-spine{background:#e8e8e8}
+.gallery-slide.photo-inside{background:#f1f1f1}
+.book-object{width:135px;height:208px;display:block;border-radius:5px;background:linear-gradient(115deg,#bdbdbd 0 7%,#d4d4d4 8% 85%,#c4c4c4);border:1px solid #b8b8b8;box-shadow:14px 14px 22px #00000018;transform:rotate(-7deg)}
+.photo-spine .book-object{width:110px;transform:rotate(10deg) perspective(500px) rotateY(32deg);background:linear-gradient(90deg,#bcbcbc 0 20%,#dedede 20%)}
+.photo-inside .book-object{width:230px;height:160px;transform:rotate(-4deg);background:linear-gradient(90deg,#e9e9e9 0 48%,#bdbdbd 49%,#f5f5f5 51%);box-shadow:8px 10px 18px #00000012}
+.gallery-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:38px;height:38px;border-radius:50%;background:#fffdfdef;border:1px solid #e2e2e2;font-size:28px;line-height:1;display:grid;place-items:center}
+.gallery-arrow.previous{left:12px}.gallery-arrow.next{right:12px}
+.gallery-arrow:hover{background:#fff}
+.gallery-count{position:absolute;bottom:12px;right:12px;border-radius:999px;background:#fffdf9ec;padding:5px 11px;font-size:11px;color:#444}
+.gallery-dots{display:flex;justify-content:center;gap:7px;padding-top:12px}
+.gallery-dot{width:7px;height:7px;padding:0;border:0;background:#d0d0d0;border-radius:999px}
+.gallery-dot.active{width:20px;background:#333}
+.modal-purchase-row{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:0 0 18px}
+.purchase-price{display:flex;align-items:center;gap:13px;flex-wrap:wrap;min-width:0}
+.purchase-price .money{font-size:29px;line-height:1.2;white-space:nowrap}
+.purchase-price .pill{border:1px solid #e1e1e1;background:#f4f4f4;color:#444;font-size:11px;font-weight:650;white-space:nowrap}
+.purchase-actions{display:flex;align-items:center;gap:8px;flex:0 0 auto}
+.purchase-actions .btn{flex:none;min-width:120px;border-radius:11px;padding:12px 14px}
+.modal-note{border-top:1px solid #eee;padding-top:17px;margin:0;font-size:13px;line-height:1.55}
+.modal-note strong{font-size:12px;color:#333}
+.modal-note p{margin:7px 0 0;color:#666}
+.unlisted-label{font-size:13px;font-weight:650;color:#666}
+.no-ad{margin:0 0 18px;padding:16px;background:#f7f7f7}
+@media(max-width:600px){.dialog{padding:22px 19px}.message-action span{display:none}.message-action{width:42px;height:42px;padding:0}.gallery-stage{height:240px}.modal-purchase-row{align-items:stretch;flex-direction:column;gap:14px}.purchase-actions .btn{flex:1;min-width:0}}
+</style>
+<style>
+/* V16 — Misma relación de aspecto para foto anunciada y miniatura: 2:3; imagen completa sin recorte */
+#copies .copy-card{min-height:190px}
+#copies .copy-thumb{aspect-ratio:2 / 3;height:164px;max-height:none;align-self:center;min-height:0;overflow:hidden}
+#copies .copy-thumb.ad-photo::before{width:53%;height:64%;top:18%;left:23.5%;right:auto;bottom:auto;box-sizing:border-box}
+.gallery-stage{height:345px;background:#f3f3f3;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.gallery-slide{inset:0;background:#f3f3f3;display:flex;align-items:center;justify-content:center;padding:14px 56px}
+.gallery-slide[hidden]{display:none}
+.gallery-slide .book-object{height:min(305px,100%);width:auto;aspect-ratio:2 / 3;max-width:100%;object-fit:contain;box-sizing:border-box;box-shadow:8px 10px 20px #00000017;transform:rotate(-3deg)}
+.gallery-slide.photo-spine .book-object{aspect-ratio:2 / 3;height:min(305px,100%);width:auto;transform:rotate(4deg) perspective(600px) rotateY(15deg)}
+.gallery-slide.photo-inside .book-object{height:min(305px,100%);width:auto;aspect-ratio:2 / 3;transform:rotate(-2deg)}
+/* Para fotografías reales: conservar imagen completa, sin estirar ni cortar */
+.gallery-slide img,.copy-thumb img{width:100%;height:100%;object-fit:contain;object-position:center;display:block}
+.no-ad-offer{padding:2px 0 6px;display:flex;align-items:flex-start;flex-direction:column;gap:0}
+.offer-eyebrow{font-size:10px;font-weight:700;letter-spacing:.85px;color:#777;margin-bottom:7px}
+.no-ad-offer h3{font-size:21px;letter-spacing:-.5px;line-height:1.26;margin:0 0 9px;color:#242424}
+.no-ad-offer p{font-size:13px;line-height:1.58;color:#626262;margin:0 0 19px;max-width:470px}
+.no-ad-offer .offer-main{width:100%;min-height:49px;display:flex;align-items:center;justify-content:center;gap:12px;font-size:14px;border-radius:12px;text-decoration:none}
+.offer-main span{font-size:19px;font-weight:400}
+.offer-hint{font-size:11px;color:#888;align-self:center;margin-top:12px}
+.unlisted-cover-stage{display:grid;place-items:center;height:230px;background:#f3f3f3;border-radius:15px;margin-bottom:21px}
+.unlisted-cover{width:129px;aspect-ratio:2/3;border-radius:7px;background:#ddd;display:grid;place-items:center;text-align:center;font-size:10px;line-height:1.6;letter-spacing:.3px;color:#777}
+@media(max-width:600px){.gallery-stage{height:290px}.gallery-slide .book-object{height:min(250px,100%)}.unlisted-cover-stage{height:200px}}
+</style>
+
+<style>
+/* LIVRO V17: tarjetas con foto de anuncio cuadrada y cubierta editorial vertical */
+#copies .copy-card {
+  flex: 0 0 355px;
+  width: 355px;
+  min-height: 183px;
+  max-height: none;
+  grid-template-columns: 124px minmax(0,1fr);
+  gap: 17px;
+  align-items: start;
+  padding: 8px 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+#copies .copy-card:hover { border: 0; background: transparent; box-shadow: none; transform: none; }
+#copies .copy-thumb.ad-photo {
+  width: 124px;
+  height: 124px;
+  min-width: 124px;
+  min-height: 124px;
+  max-height: 124px;
+  aspect-ratio: 1 / 1;
+  align-self: start;
+  margin: 0;
+  border-radius: 11px;
+}
+#copies .copy-thumb.ad-photo::before {
+  width: 54%;
+  height: 77%;
+  top: 11%;
+  left: 23%;
+  bottom: auto;
+  right: auto;
+}
+#copies .copy-thumb.catalog-photo {
+  width: 124px;
+  height: 177px;
+  min-width: 124px;
+  min-height: 177px;
+  max-height: 177px;
+  aspect-ratio: 2 / 3;
+  align-self: start;
+  margin: 0;
+  border-radius: 10px;
+}
+#copies .copy-info {
+  align-self: start;
+  min-height: 177px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+#copies .owner {
+  margin: 0;
+  height: 32px;
+  min-height: 32px;
+  flex: 0 0 32px;
+  align-self: flex-start;
+  align-items: flex-start;
+}
+#copies .owner .avatar { flex: 0 0 31px; width: 31px; height: 31px; }
+#copies .owner .copy-owner-name { align-self: center; }
+#copies .copy-primary { align-self: flex-start; align-items: flex-start; margin-top: 13px; }
+#copies .place { align-self: flex-start; justify-content: flex-start; }
+
+/* Modal: foto un poco menos panorámica, manteniendo el objeto completo */
+#dialog-body .detail-gallery { max-width: 470px; margin-left: auto; margin-right: auto; }
+#dialog-body .gallery-stage { height: 350px; }
+#dialog-body .gallery-slide { padding: 18px 70px; }
+#dialog-body .gallery-slide .book-object { max-height: 302px; }
+
+/* Modal: bloque de precio y conversión, sin competir con la mensajería del propietario */
+.sale-panel {
+  background: #f7f7f7;
+  border: 1px solid #ebebeb;
+  border-radius: 16px;
+  padding: 19px 20px 16px;
+  margin: 6px 0 18px;
+}
+.sale-panel-main {
+  display: grid;
+  grid-template-columns: minmax(120px, 1fr) minmax(185px, 1.15fr);
+  align-items: center;
+  gap: 22px;
+}
+.sale-price-block { display: flex; flex-direction: column; align-items: flex-start; gap: 7px; min-width: 0; }
+.sale-eyebrow { font-size: 10px; font-weight: 700; letter-spacing: .65px; color: #777; }
+.sale-price-block .money { font-size: 34px; font-weight: 800; line-height: 1.1; letter-spacing: -.8px; }
+.sale-condition { font-size: 11px; font-weight: 650; background: #e9e9e9; padding: 6px 10px; border-radius: 999px; color: #444; }
+.sale-actions { display: flex; flex-direction: column; align-items: stretch; gap: 8px; }
+.sale-actions .btn { min-height: 44px; border-radius: 11px; font-size: 12px; font-weight: 700; }
+.sale-buy { display: flex; align-items: center; justify-content: center; gap: 12px; }
+.sale-buy span { font-size: 19px; font-weight: 400; }
+.sale-offer { background: white; border: 1px solid #d9d9d9; }
+.sale-caption { font-size: 11px; line-height: 1.5; color: #777; margin: 14px 0 0; }
+@media(max-width:650px) {
+  #copies .copy-card { flex-basis: 300px; width: 300px; grid-template-columns: 106px minmax(0,1fr); gap: 12px; }
+  #copies .copy-thumb.ad-photo { width: 106px; height: 106px; min-width: 106px; min-height: 106px; max-height: 106px; }
+  #copies .copy-thumb.catalog-photo { width: 106px; height: 159px; min-width: 106px; min-height: 159px; max-height: 159px; }
+  #dialog-body .detail-gallery { max-width: 100%; }
+  #dialog-body .gallery-stage { height: 285px; }
+  #dialog-body .gallery-slide { padding: 18px 45px; }
+  .sale-panel-main { grid-template-columns: 1fr; gap: 15px; }
+}
+</style>
+<style>
+/* V18: ubicación junto al resto de metadatos, sin empujarla al fondo */
+#copies .copy-info{height:auto!important;min-height:0!important;max-height:none!important;width:100%!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:flex-start!important;gap:0!important;}
+#copies .copy-info .owner{flex:none!important;min-height:32px!important;height:32px!important;margin:0!important;}
+#copies .copy-info .copy-primary{flex:none!important;align-self:flex-start!important;margin:14px 0 0!important;min-height:0!important;}
+#copies .copy-info .place{flex:none!important;align-self:flex-start!important;margin:15px 0 0!important;padding:0!important;min-height:0!important;justify-self:auto!important;}
+#copies .copy-card{align-items:start!important;}
+</style>
+<style>
+/* V19 — igualar alturas de miniaturas en tarjetas de ejemplares */
+#copies .copy-card{grid-template-columns:124px minmax(0,1fr);align-items:start}
+#copies .copy-thumb.ad-photo,
+#copies .copy-thumb.catalog-photo{width:124px;min-width:124px;height:160px;min-height:160px;max-height:160px;align-self:start;margin:0;border-radius:11px;overflow:hidden}
+#copies .copy-thumb.ad-photo{aspect-ratio:auto;background:#e5e5e5;border:1px solid #d6d6d6;display:grid;place-items:center;position:relative}
+#copies .copy-thumb.ad-photo::before{content:'';position:absolute;width:56px;height:96px;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-8deg);background:linear-gradient(160deg,#d4d4d4,#c1c1c1);border:1px solid #b4b4b4;border-radius:3px;box-shadow:3px 4px 8px #00000018}
+#copies .copy-thumb.catalog-photo{aspect-ratio:auto;background:#dddddd;border:1px solid #d6d6d6;display:grid;place-items:center}
+#copies .copy-info{min-height:160px}
+@media(max-width:650px){
+  #copies .copy-card{grid-template-columns:106px minmax(0,1fr)}
+  #copies .copy-thumb.ad-photo,
+  #copies .copy-thumb.catalog-photo{width:106px;min-width:106px;height:136px;min-height:136px;max-height:136px}
+  #copies .copy-thumb.ad-photo::before{width:47px;height:79px}
+  #copies .copy-info{min-height:136px}
+}
+</style>
+
+<style>
+/* V20: el diálogo de venta respeta el mismo ancho que la galería y el bloque de compra. */
+@media(min-width:651px){
+  .dialog:has(.sale-panel){width:min(532px,calc(100vw - 40px));padding:25px 26px 27px}
+}
+.dialog:has(.sale-panel) #dialog-body .detail-gallery{width:100%;max-width:none;margin:0 0 20px}
+.dialog:has(.sale-panel) #dialog-body .gallery-stage{width:100%;height:345px}
+.dialog:has(.sale-panel) #dialog-body .gallery-dots{margin-bottom:0}
+.dialog:has(.sale-panel) .sale-panel{width:100%;box-sizing:border-box;margin-top:0;padding:18px 18px 15px}
+.dialog:has(.sale-panel) .sale-panel-main{grid-template-columns:minmax(0,1fr) minmax(165px,1fr);gap:18px;align-items:center}
+.dialog:has(.sale-panel) .sale-price-block{align-self:center}
+.dialog:has(.sale-panel) .sale-actions{align-self:center}
+.dialog:has(.sale-panel) .sale-caption{margin-top:13px}
+@media(max-width:650px){
+  .dialog:has(.sale-panel){width:100%}
+  .dialog:has(.sale-panel) #dialog-body .gallery-stage{height:285px}
+  .dialog:has(.sale-panel) .sale-panel-main{grid-template-columns:1fr;gap:15px}
+}
+</style>
+<style>
+/* V21 · Ajuste final del carrusel de ejemplares */
+#copies{gap:9px}
+#copies .copy-card{flex:0 0 384px;width:384px;grid-template-columns:143px minmax(0,1fr);gap:17px}
+#copies .copy-thumb.ad-photo,#copies .copy-thumb.catalog-photo{width:143px;min-width:143px;height:184px;min-height:184px;max-height:184px}
+#copies .copy-thumb.ad-photo::before{width:65px;height:110px}
+.copies-result-title{font-weight:400;letter-spacing:-.4px}
+.copies-result-title strong{font-weight:750}
+@media(max-width:650px){
+  #copies .copy-card{flex:0 0 332px;width:332px;grid-template-columns:122px minmax(0,1fr);gap:12px}
+  #copies .copy-thumb.ad-photo,#copies .copy-thumb.catalog-photo{width:122px;min-width:122px;height:156px;min-height:156px;max-height:156px}
+  #copies .copy-thumb.ad-photo::before{width:54px;height:91px}
+}
+</style><style>/* V22: espacio entre tarjetas de ejemplares */
+#copies.edition-list{column-gap:4px;gap:4px}
+</style><style>/* V23: reducir el ancho sobrante de las tarjetas y separar las secciones */
+#copies .copy-card{flex:0 0 326px;width:326px;grid-template-columns:143px minmax(0,1fr);gap:14px}
+#copies.edition-list{gap:4px;column-gap:4px}
+.other-editions-section{border-top:1px solid #ededed;margin-top:20px;padding-top:18px}
+.other-editions-section .section-head{margin-top:0}
+@media(max-width:650px){#copies .copy-card{flex-basis:294px;width:294px;grid-template-columns:122px minmax(0,1fr);gap:11px}}
+</style><style>/* V24: separación entre secciones y entre otras ediciones */
+.other-editions-section{padding-top:34px}
+.other-editions-section .section-head{margin-top:0}
+.other-editions-section .editions{column-gap:38px;row-gap:28px}
+@media(max-width:700px){.other-editions-section{padding-top:28px}.other-editions-section .editions{column-gap:24px;row-gap:24px}}
+</style></head><body><div class="meta"><strong>WF-P-02-E_detalleLibro_escritorio.html</strong></div><div class="frame"><header class="top"><div class="logo">LIVRO</div><nav class="desktop-nav" aria-label="Navegación principal"><button class="current" type="button" onclick="document.querySelector('.main').scrollIntoView({behavior:'smooth'})">Explorar</button><button type="button" onclick="alert('Destino previsto: Mi biblioteca')">Mi biblioteca</button><button type="button" onclick="alert('Destino previsto: Mensajes')">Mensajes</button><button type="button" onclick="showHistory()">Historial</button></nav><button class="desktop-add" type="button" onclick="alert('Destino previsto: P-05 · Añadir libro mediante ISBN.')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>Añadir libro</button><button class="profile-avatar" type="button" aria-label="Abrir mi cuenta" title="Mi cuenta" onclick="alert('Destino previsto: perfil y configuración de cuenta.')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5.8 19c.5-3.3 2.7-5 6.2-5s5.7 1.7 6.2 5"/></svg></button></header><main class="main"><button type="button" class="back" onclick="alert('Volver a P-01 · Explorar libros')">← Volver a Explorar</button>
+<section class="book-hero" id="book-hero" aria-label="Información de la edición seleccionada"><div class="catalog-cover" id="catalog-cover" role="img" aria-label="Cubierta del libro (marcador de posición)"><span>CUBIERTA<br>DEL LIBRO</span></div><div class="hero-main"><div class="eyebrow">Ficha del libro · Edición seleccionada</div><h1>Cien años de soledad</h1><p class="byline">Gabriel García Márquez</p><div class="ed-meta"><span class="hero-fact"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 5v14"/></svg><span><b>Editorial:</b> Sudamericana</span></span><span class="hero-fact"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 4v16"/></svg><span><b>Encuadernación:</b> Tapa blanda</span></span><span class="hero-fact"><svg viewBox="0 0 24 24"><path d="M3 6v12M6 6v12M10 6v12M13 6v12M16 6v12M21 6v12"/></svg><span><b>ISBN:</b> 978-84-376-0494-7</span></span><span class="hero-fact extra-hero-fact" hidden><svg viewBox="0 0 24 24"><path d="M6 3v4M18 3v4M4 9h16M4 5h16v15H4z"/></svg><span><b>Publicación:</b> 1967</span></span><span class="hero-fact extra-hero-fact" hidden><svg viewBox="0 0 24 24"><path d="M5 4h11l3 3v13H5zM9 10h6M9 14h6M9 18h4"/></svg><span><b>Número de páginas:</b> 496 páginas</span></span><span class="hero-fact extra-hero-fact" hidden><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg><span><b>Idioma:</b> Español</span></span><span class="hero-fact extra-hero-fact" hidden><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg><span><b>Género:</b> Realismo mágico · Novela</span></span></div><div class="expanded" id="expanded" hidden><div class="synopsis"><h3>Sinopsis</h3><p>La historia de la familia Buendía a lo largo de varias generaciones, en el pueblo imaginario de Macondo. Una novela que entrelaza memoria, amor, soledad y acontecimientos extraordinarios.</p></div></div>
+  <button type="button" class="more" id="more" aria-expanded="false" aria-controls="expanded" onclick="toggleMore()">Más información <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 9 7 7 7-7"/></svg></button></div></section>
+<section aria-labelledby="copies-title"><div class="section-head"><div><h2 id="copies-title" class="copies-result-title"><strong>6 ejemplares</strong> de la misma edición</h2><p>Ejemplares físicos registrados con el mismo ISBN por usuarios.</p></div></div><div class="carousel-shell"><button type="button" class="carousel-arrow prev" aria-label="Ver ejemplares anteriores" onclick="moveCopies(-1)">‹</button><div class="edition-list" id="copies" tabindex="0" aria-label="Ejemplares; desplazar horizontalmente"></div><button type="button" class="carousel-arrow next" aria-label="Ver siguientes ejemplares" onclick="moveCopies(1)">›</button></div></section>
+<section class="other-editions-section" aria-labelledby="other-title"><div class="section-head"><div><h2 id="other-title" class="copies-result-title"><strong>3 ediciones</strong> de la misma obra</h2><p>Explora otros ejemplares de esta obra.</p></div></div><div class="editions" id="editions"></div></section></main></div><div class="overlay" id="overlay" hidden onclick="if(event.target===this)closeCopy()"><section class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title"><div class="dialog-top"><h2 id="dialog-title">Detalle del ejemplar</h2><button id="close" class="close" aria-label="Cerrar" onclick="closeCopy()">×</button></div><div id="dialog-body"></div></section></div><script>
+const userIcon=`<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.7"/><path d="M5 20c.3-4 2.7-6 7-6s6.7 2 7 6"/></svg>`,pinIcon=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>`;
+const copies=[
+ {owner:'Laura M.',city:'Las Palmas',price:12,condition:'Buen estado',photos:true,observations:'Algunas señales de uso en la cubierta. Interior limpio y sin subrayados.'},
+ {owner:'Carlos R.',city:'Telde',price:9,condition:'Usado',photos:true,observations:'Ligero desgaste en las esquinas. Todas las páginas en buen estado.'},
+ {owner:'Marta S.',city:'Teror',price:null,condition:null,photos:false,observations:null},
+ {owner:'Ana P.',city:'Vecindario',price:15,condition:'Como nuevo',photos:true,observations:'Leído una vez, sin marcas ni anotaciones.'},
+ {owner:'David N.',city:'Arucas',price:null,condition:null,photos:false,observations:null},
+ {owner:'Elena G.',city:'Agüimes',price:7,condition:'Buen estado',photos:true,observations:'Cubierta con pequeñas marcas, páginas completas.'}
+];
+function renderCopies(){document.getElementById('copies').innerHTML=copies.map((x,i)=>`<button class="copy-card" type="button" onclick="openCopy(${i})" aria-label="Ver ejemplar de ${x.owner}"><span class="copy-thumb ${x.photos?'ad-photo':'catalog-photo'}" aria-hidden="true">${x.photos?'<span aria-hidden="true"></span>':'<span>CUBIERTA<br>DEL LIBRO</span>'}</span><span class="copy-info"><span class="owner"><span class="avatar">${userIcon}</span><span class="copy-owner-name">${x.owner}</span></span><span class="copy-primary">${x.price!==null?`<strong class="money">${x.price} €</strong>`:'<span class="offer-cta">Hacer oferta</span>'}${x.condition?`<span class="condition">${x.condition}</span>`:''}</span><span class="place">${pinIcon}${x.city}</span></span></button>`).join('')}
+
+const editions=[{publisher:'Debolsillo',format:'Bolsillo',count:9},{publisher:'Cátedra',format:'Tapa blanda',count:4},{publisher:'Edición ilustrada',format:'Tapa dura',count:3}];
+function renderEditions(){document.getElementById('editions').innerHTML=editions.map(x=>`<button class="edition" onclick="alert('Navegación prevista: consultar los ejemplares de '+ '${x.publisher}' )"><span class="edition-cover" aria-hidden="true"><span class="edition-cover-art">CUBIERTA<br>DEL LIBRO</span></span><span class="edition-info"><strong>${x.publisher}</strong><span>${x.format}</span><span class="edition-owners"><span class="owner-mini" aria-hidden="true">${userIcon}</span><span class="owner-mini" aria-hidden="true">${userIcon}</span><span class="owner-mini" aria-hidden="true">${userIcon}</span><b>${x.count} ejemplares</b></span></span></button>`).join('')}
+
+function moveCopies(direction){const el=document.getElementById('copies');el.scrollBy({left:direction*(el.querySelector('.copy-card')?.getBoundingClientRect().width+13||240)*2,behavior:'smooth'});}
+function initCopyDrag(){const track=document.getElementById('copies');let down=false,startX=0,startScroll=0,moved=false;track.addEventListener('pointerdown',e=>{if(e.pointerType!=='mouse'||e.button!==0)return;down=true;moved=false;startX=e.clientX;startScroll=track.scrollLeft;});window.addEventListener('pointerup',()=>{down=false});track.addEventListener('pointermove',e=>{if(!down)return;const delta=e.clientX-startX;if(Math.abs(delta)>5){moved=true;track.classList.add('dragging');track.scrollLeft=startScroll-delta}});track.addEventListener('pointerup',()=>{setTimeout(()=>track.classList.remove('dragging'),0)});track.addEventListener('click',e=>{if(moved){e.preventDefault();e.stopPropagation();moved=false}},true);track.addEventListener('wheel',e=>{if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){if(track.scrollWidth>track.clientWidth+2){e.preventDefault();track.scrollLeft+=e.deltaY}}else track.scrollLeft+=e.deltaX},{passive:false});}
+function toggleMore(){
+ const el=document.getElementById('expanded'),b=document.getElementById('more'),hero=document.getElementById('book-hero');
+ const expanding=el.hidden;
+ el.hidden=!expanding;hero.classList.toggle('is-expanded',expanding);b.setAttribute('aria-expanded',String(expanding));
+ b.childNodes[0].textContent=expanding?'Menos información ':'Más información ';
+ document.querySelectorAll('.extra-hero-fact').forEach(f=>f.hidden=!expanding);
+}
+
+const messageIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v12H9l-5 4V5Z"/><path d="M8 10h8M8 14h5"/></svg>';
+const nextIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>';
+let activePhoto=0;
+function showPhoto(index){
+ const slides=[...document.querySelectorAll('#detail-gallery .gallery-slide')];
+ if(!slides.length)return;
+ activePhoto=(index+slides.length)%slides.length;
+ slides.forEach((slide,i)=>{slide.hidden=i!==activePhoto;slide.setAttribute('aria-hidden',String(i!==activePhoto))});
+ const count=document.getElementById('gallery-count');if(count)count.textContent=(activePhoto+1)+' / '+slides.length;
+ document.querySelectorAll('.gallery-dot').forEach((b,i)=>{b.classList.toggle('active',i===activePhoto);b.setAttribute('aria-current',String(i===activePhoto))});
+}
+function stepPhoto(n){showPhoto(activePhoto+n)}
+function openCopy(i){
+ const x=copies[i],has=x.price!==null;
+ const gallery=x.photos?`<section class="detail-gallery" id="detail-gallery" aria-label="Fotografías del ejemplar"><div class="gallery-stage"><div class="gallery-slide photo-first" role="img" aria-label="Fotografía de la cubierta del ejemplar"><span class="book-object"></span></div><div class="gallery-slide photo-spine" role="img" aria-label="Fotografía del lomo y contraportada" hidden><span class="book-object"></span></div><div class="gallery-slide photo-inside" role="img" aria-label="Fotografía de las páginas interiores" hidden><span class="book-object"></span></div><button type="button" class="gallery-arrow previous" aria-label="Foto anterior" onclick="stepPhoto(-1)">‹</button><button type="button" class="gallery-arrow next" aria-label="Foto siguiente" onclick="stepPhoto(1)">›</button><span class="gallery-count" id="gallery-count">1 / 3</span></div><div class="gallery-dots" aria-label="Elegir fotografía"><button type="button" class="gallery-dot active" aria-label="Fotografía 1" onclick="showPhoto(0)"></button><button type="button" class="gallery-dot" aria-label="Fotografía 2" onclick="showPhoto(1)"></button><button type="button" class="gallery-dot" aria-label="Fotografía 3" onclick="showPhoto(2)"></button></div></section>`:'';
+ document.getElementById('dialog-body').innerHTML=`<div class="modal-owner-row"><button type="button" class="modal-owner-link" onclick="alert('Destino previsto: biblioteca de ${x.owner}')" aria-label="Abrir biblioteca de ${x.owner}"><span class="avatar">${userIcon}</span><span class="modal-owner-text"><strong>${x.owner}</strong><span>${pinIcon}${x.city}</span></span><span class="owner-chevron">${nextIcon}</span></button><button type="button" class="message-action" onclick="demoAction('Enviar mensaje')">${messageIcon}<span>Enviar mensaje</span></button></div>${has?gallery:'<div class="unlisted-cover-stage"><div class="unlisted-cover">CUBIERTA<br>DEL LIBRO</div></div>'}${has?`<section class="sale-panel" aria-label="Comprar o hacer una oferta"><div class="sale-panel-main"><div class="sale-price-block"><span class="sale-eyebrow">PRECIO DEL EJEMPLAR</span><strong class="money">${x.price} €</strong><span class="sale-condition">${x.condition||'Estado sin indicar'}</span></div><div class="sale-actions"><button type="button" class="btn dark sale-buy" onclick="demoAction('Comprar')">Comprar <span aria-hidden="true">→</span></button><button type="button" class="btn sale-offer" onclick="demoAction('Hacer oferta')">Hacer una oferta</button></div></div><p class="sale-caption">¿Te interesa? Puedes comprarlo al precio anunciado o proponer otro importe al propietario.</p></section>${x.observations?`<div class="modal-note"><strong>Observaciones del propietario</strong><p>${x.observations}</p></div>`:''}`:`<div class="no-ad-offer"><span class="offer-eyebrow">EN SU BIBLIOTECA PERSONAL</span><h3>¿Te gustaría conseguir este ejemplar?</h3><p>Aunque ${x.owner} no lo ha puesto a la venta, puedes proponerle un precio. Recibirá tu oferta y decidirá si le interesa.</p><button type="button" class="btn dark offer-main" onclick="demoAction('Hacer oferta')">Hacer una oferta <span aria-hidden="true">→</span></button><span class="offer-hint">Sin compromiso · El propietario decide si acepta</span></div>`}`;
+ document.getElementById('overlay').hidden=false;document.body.style.overflow='hidden';document.getElementById('close').focus();activePhoto=0;
+}
+function closeCopy(){document.getElementById('overlay').hidden=true;document.body.style.overflow=''}
+function demoAction(action){alert('Flujo '+action+' pendiente de diseñar. Esta demostración no realiza operaciones.')}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeCopy()});
+renderCopies();renderEditions();initCopyDrag();
+</script></body></html>
